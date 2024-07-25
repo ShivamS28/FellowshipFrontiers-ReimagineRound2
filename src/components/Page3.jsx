@@ -61,14 +61,14 @@ const Page3 = () => {
           className='slider bg-[#2d2e2f] relative mt-16 snap-x flex items-center overflow-x-scroll'
         >
           <div ref={wrape} className='wrapper snap-center shrink-0 w-[94vw] h-full py-4 gap-4 flex items-center justify-around '>
-            <P3card x={'translate-x-[80%]'} src={'./public/Magazine cover 1.webp'} z={'z-10'} />
-            <P3card x={'translate-x-0'} src={'./public/Magazine cover 2.webp'} z={'z-20'} />
-            <P3card x={'-translate-x-[80%]'} src={'./public/Magazine cover 3.webp'} z={'z-10'} />
+            <P3card x={'translate-x-[80%]'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 1.webp'} z={'z-10'} />
+            <P3card x={'translate-x-0'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 2.webp'} z={'z-20'} />
+            <P3card x={'-translate-x-[80%]'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 3.webp'} z={'z-10'} />
           </div>
           <div className='wrapper snap-center shrink-0 w-[94vw] h-full gap-4 flex items-center justify-around '>
-            <P3card x={'translate-x-[80%]'} src={'./public/Magazine cover 4.webp'} z={'z-10'} />
-            <P3card x={'translate-x-0'} src={'./public/Magazine cover 5.webp'} z={'z-20'} />
-            <P3card x={'-translate-x-[80%]'} src={'./public/Magazine cover 6.webp'} z={'z-10'} />
+            <P3card x={'translate-x-[80%]'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 4.webp'} z={'z-10'} />
+            <P3card x={'translate-x-0'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 5.webp'} z={'z-20'} />
+            <P3card x={'-translate-x-[80%]'} src={'https://github.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/blob/main/public/Magazine cover 6.webp'} z={'z-10'} />
           </div>
           <div className='scroll opacity-0 w-20 h-20 z-50 pointer-events-none text-xs flex items-center gap-1 justify-center text-white rounded-full bg-black absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2'>
              {500<Math.abs(arrow) && <FaArrowLeftLong />} SCROLL {arrow===0 && <FaArrowRightLong />}
