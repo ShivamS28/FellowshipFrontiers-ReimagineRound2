@@ -3,7 +3,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <div className='w-[94vw] p-10 bg-[#dbdbdb]'>
+    <div className='w-[94vw] bg-[#dbdbdb]'>
         <div className='my-20 w-full text-white flex flex-col items-center justify-center py-5 bg-black'>
             <h2 className='text-[3vw] uppercase tracking-tight font-semibold '>Upgrade your reading exprience</h2>
             <p className='text-[1.3vw] opacity-90'>Subscribe to get access to our exclusive Vogue reader app</p>

@@ -13,7 +13,7 @@ const Sidenav = () => {
     }
 
     const navLinks = ["Fashion", "Beauty", "Vogue closet", "Wedding Wardrobe", "Horoscope", "Magazine", "Diamond festival 2022"];
-    const menuLinks = ["facebook", "Instagram", "Twitter", "Youtube", "Pintrest", "flipboard"];
+    const menuLinks = ["facebook", "Instagram", "Twitter", "Youtube", "Pinterest", "flipboard"];
 
     const linkVariants1 = {
         open: (i) => ({
