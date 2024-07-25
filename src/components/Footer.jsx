@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center gap-3 mb-6 absolute top-1/2 -translate-y-1/2 right-10">
           {socialMediaLinks.map((link, index) => (
-            <a key={index} href={link.href} className="hover:text-white w-[3vw] h-[3vw] border rounded-full flex items-center text-2xl justify-center">
+            <a key={index} href={link.href} className="hover:text-red-500 w-[3vw] h-[3vw] border rounded-full flex items-center text-2xl justify-center">
               {link.icon}
             </a>
           ))}

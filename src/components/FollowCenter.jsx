@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 
 const FollowCenter = ({ imgdata }) => {
   const magazines = [
-    { name: 'Vogue', img: 'public/mobilescreen.webp' },
-    { name: 'Vogue', img: 'public/mobilescreen2.webp' },
-    { name: 'Traveller', img: 'public/mobilescreen3.webp' },
-    { name: 'GQ', img: 'public/mobilescreen4.webp' },
+    { name: 'Vogue', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/mobilescreen.webp' },
+    { name: 'Vogue', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/mobilescreen2.webp' },
+    { name: 'Traveller', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/mobilescreen3.webp' },
+    { name: 'GQ', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/mobilescreen4.webp' },
   ];
 
   const [data, setData] = useState(imgdata);

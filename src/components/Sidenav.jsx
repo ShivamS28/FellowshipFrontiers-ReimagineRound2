@@ -12,7 +12,7 @@ const Sidenav = () => {
         setBtnClick(!btnClick);
     }
 
-    const navLinks = ["Fashion", "Beauty", "Vogue closet", "Weadding Wardrob", "Horoscope", "Magazine", "Diamond festival 2022"];
+    const navLinks = ["Fashion", "Beauty", "Vogue closet", "Wedding Wardrobe", "Horoscope", "Magazine", "Diamond festival 2022"];
     const menuLinks = ["facebook", "Instagram", "Twitter", "Youtube", "Pintrest", "flipboard"];
 
     const linkVariants1 = {

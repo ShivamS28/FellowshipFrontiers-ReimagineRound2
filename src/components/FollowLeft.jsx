@@ -4,10 +4,10 @@ const FollowLeft = ({ sendDataToParent }) => {
   const [activeImage, setActiveImage] = useState(0);
 
   const magazines = [
-    { name: 'Vogue', img: '/public/Vogue.webp' },
-    { name: 'GQ', img: '/public/gq-logo-white.webp' },
-    { name: 'Traveller', img: '/public/cnt-logo-white.webp' },
-    { name: 'AD', img: '/public/ad-new-logo-white.webp' },
+    { name: 'Vogue', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/Vogue.webp' },
+    { name: 'GQ', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/gq-logo-white.webp' },
+    { name: 'Traveller', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/cnt-logo-white.webp' },
+    { name: 'AD', img: 'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/ad-new-logo-white.webp' },
   ];
 
   const handleClick = (key) => {
