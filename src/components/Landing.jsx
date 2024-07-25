@@ -11,7 +11,7 @@ const Landing = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const data = [
     {
-      img: "./src/assets/Landpage img 1.jpg",
+      img: "https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/src/assets/Landpage img 1.jpg",
       tag: "BEAUTY",
       title: "KRITI SANON'S SECRET TO A STRONG CORE IS THIS EXERCISE— HERE'S WHY YOU NEED TO TRY IT TOO",
       desc: "Kriti Sanon takes fitness to new heights with planks on treadmill for a strong core.",
