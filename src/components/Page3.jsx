@@ -61,7 +61,7 @@ const Page3 = () => {
           className='slider bg-[#2d2e2f] relative mt-16 snap-x flex items-center overflow-x-scroll'
         >
           <div ref={wrape} className='wrapper snap-center shrink-0 w-[94vw] h-full py-4 gap-4 flex items-center justify-around '>
-            <P3card x={'translate-x-[80%]'} src={'https://media.vogue.in/wp-content/uploads/2024/06/0001-3-600x777.jpg'} z={'z-10'} />
+            <P3card x={'translate-x-[80%]'} src={'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/Magazine cover 1.webp'} z={'z-10'} />
             <P3card x={'translate-x-0'} src={'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/Magazine cover 2.webp'} z={'z-20'} />
             <P3card x={'-translate-x-[80%]'} src={'https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/public/Magazine cover 3.webp'} z={'z-10'} />
           </div>
