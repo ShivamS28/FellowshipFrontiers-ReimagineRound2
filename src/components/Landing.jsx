@@ -19,7 +19,7 @@ const Landing = () => {
       date: "30 JUNE 2023",
     },
     {
-      img: "./src/assets/Landpage img 2.jpg",
+      img: "https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/src/assets/Landpage img 2.jpg",
       tag: "FASHION",
       title: "THE ULTIMATE OUT- OF-OFFICE STAPLES THAT REALLY MEAN BUSINESS? BLAZERS THAT GO WITH SKIRTS",
       desc: "The secrets of success this season?Confidence, precision, flashes of brilliance—and a wardrobe to back it up",
@@ -27,7 +27,7 @@ const Landing = () => {
       date: "19 FEBRUARY 2023",
     },
     {
-      img: "./src/assets/Landpage img 3.jpg",
+      img: "https://raw.githubusercontent.com/ShivamS28/FellowshipFrontiers-ReimagineRound2/main/src/assets/Landpage img 3.jpg",
       tag: "CULTURE & LIVING",
       title: "IMRAN KHAN: THE HUNK WHO SOLD HIS FERRARI",
       desc: "Although he been away from the big screen for almost a decade, the chants of Laut ao Imran Khan haven subsided. Vogue India experiences the charm of Bollywood favourite romcom hero first- hand.",
